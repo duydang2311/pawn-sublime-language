@@ -630,7 +630,7 @@
 
 		<key>comment-banner-line</key>
 		<dict>
-			<key>match</key> <string>(?:(?&lt;=//)|(?&lt;=/\*)|^)[\s/*]*(=+\s*(.*?)\s*=+(?:(?=[\s/*+\-]*\*/)|$(\n?)))</string>
+			<key>match</key> <string>(?:(?&lt;=//)|(?&lt;=/\*)|^)[\s/*]*(=+\s*(.*?)\s*=+(?:(?=[\s/*+\-]*\*/)|$(\n)?))</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key> <dict> <key>name</key> <string>meta.toc-list.banner.c</string> </dict>
